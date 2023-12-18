@@ -1,4 +1,4 @@
-// FAQ
+// FAQ stuff
 document.addEventListener(`DOMContentLoaded`, function () {
     const faqContainer = document.querySelector(`.faq-content`);
 
