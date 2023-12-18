@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- NavBar -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="./assets/Logo.png" alt="logo">
+        </a>
+      </div>
+
+      <div class="main-menu">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">About Us</a>
+          </li>
+          <li>
+            <a href="#">Place Order</a>
+          </li>
+          <li>
+            <a class="btn btn-dark" href="#">
+              <i class="fas fa-user"></i>Log In
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-heading text-xxl">
+          For all your 3D printing needs
+        </h1>
+        <p class="hero-text">We here at 3Dream use the latest printing technology to bring your
+          vision into reality. From resin to PLA and even aluminum, be it for show or functionality,
+          if you can dream it we can make it!
+        </p>
+        <div class="hero-button">
+          <a href="#" class="btn btn-dark"><i class="fas fa-laptop"></i>Portfolio</a>
+        </div>
+        <img src="./assets/Hero.jpg" class="hero-image">
+      </div>
+    </div>
+  </section>
+
+  <!-- Video -->
+  <section class="video bg-black">
+    <div class="container-sm">
+      <h2 class="video-heading text-xl text-center">
+        See how a 3D printer works in action:
+      </h2>
+      <div class="video-content">
+        <video src="./assets/3D Printing Video.mp4" controls class="video-itself"></video>
+        <a href="#" class="btn btn-primary">See More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="reviews bg-dark">
+    <div class="container">
+      <h3 class="reviews-heading text-xl">
+        Don't take our word for it,
+        see what our customers said about our products.
+      </h3>
+      <div class="reviews-grid">
+        <div class="card">
+          <p>
+            "I couldn't be happier with how
+            my prints turned out! I recommend
+            the dark grey resin for anything art-related."
+
+          <p>Andrew Smith</p>
+          </p>
+        </div>
+        <div class="card">
+          <p>
+            "The most amazing customer support
+            I've interacted with, especially for
+            big orders like mine, when I wanted to
+            change something it was done in minutes."
+
+          <p>Gina Campbell</p>
+          </p>
+        </div>
+        <div class="card">
+          <p>
+            "I got some replacement parts for
+            some machines around the farm, I used
+            their aluminum printer for them. I must say,
+            I am blown away. "
+
+          <p>Bob Pierce</p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="pricing">
+    <div class="container-sm">
+      <h3 class="princing-heading text-xl text-center">
+        Pricing Examples
+      </h3>
+      <p class="pricing-subheading text-md text-center">
+        Here you have some pricing examples to know what to expect.
+        However if you have a specific order in mind don't hesitate
+        to place it and get your invoice made-to-order!
+      </p>
+      <div class="pricing-grid">
+
+        <!-- Pricing Card 1 -->
+        <div class="card bg-light">
+          <div class="pricing-card-header">
+            <h4 class="pricing-heading text-xl">
+              5cm Resin or PLA Miniature
+            </h4>
+            <p class="pricing-card-subheading">
+              Remember, this is an estimate of a
+              human model printed to 5cm height.
+            </p>
+            <p class="pricing-card-price">
+              <span class="text-xl">1.5$</span>
+              /1ml of resin or PLA
+            </p>
+          </div>
+          <div class="pricing-card-body">
+            <ul>
+              <li>
+                <i class="fas fa-check"></i> 24hr Customer Service
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Highest Value Guaranteed
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Durable and Precise Details
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Not Satisfied With Result?
+                Money Back After Printing
+              </li>
+            </ul>
+            <a href="" class="btn btn-primary btn-block">
+              Place Order
+            </a>
+          </div>
+        </div>
+
+        <!-- Pricing Card 2  -->
+        <div class="card bg-black">
+          <div class="pricing-card-header">
+            <h4 class="pricing-heading text-xl">
+              5cm Aluminum Miniature
+            </h4>
+            <p class="pricing-card-subheading">
+              Remember, this is an estimate of a
+              human model printed to 5cm height.
+            </p>
+            <p class="pricing-card-price">
+              <span class="text-xl">4.7$</span>
+              /1ml of aluminum
+            </p>
+          </div>
+          <div class="pricing-card-body">
+            <ul>
+              <li>
+                <i class="fas fa-check"></i> 24hr Customer Service
+              </li>
+              <li>
+                <i class="fas fa-check"></i> No Cracks or Irregularities
+              </li>
+              <li>
+                <i class="fas fa-check"></i> As Durable as Injected Aluminum
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Not Satisfied With Result?
+                Money Back After Printing
+              </li>
+            </ul>
+            <a href="" class="btn btn-primary btn-block">
+              Place Order
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="pricing-footer text-center">
+        All prices shown above are subject to applicable taxes,
+        as are any made-to-order prices.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq bg-light">
+    <div class="container-sm">
+      <h3 class="text-xl text-center">
+        Frequently Asked Questions
+      </h3>
+      <ul class="faq-menu">
+        <li class="active">All</li>
+        <li>Materials</li>
+        <li>Pricing</li>
+      </ul>
+      <div class="faq-content">
+        <div class="faq-group">
+          <div class="faq-group-header">
+            <h4 class="text-md">
+              What is the difference between
+              PLA and Resin prints?
+            </h4>
+            <i class="fas fa-minus"></i>
+          </div>
+          <div class="faq-group-body open">
+            <p>
+              When choosing between PLA and Resin prints,
+              the most important thing to know is that
+              Resin holds more details but is more brittle,
+              versus PLA which is stronger but doesn't hold details as well.
+            </p>
+          </div>
+        </div>
+        <div class="faq-group">
+          <div class="faq-group-header">
+            <h4 class="text-md">
+              What alloy of aluminum is used?
+            </h4>
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="faq-group-body">
+            <p>
+              EOS' aluminum family of powders encompasses
+              the AlSi10Mg, AlF357 and Al2139 AM alloys
+              which are typical aluminum-silicon casting alloys.
+            </p>
+          </div>
+        </div>
+        <div class="faq-group">
+          <div class="faq-group-header">
+            <h4 class="text-md">
+              What is your pricing model?
+            </h4>
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="faq-group-body">
+            <p>
+              We use a made-for-order pricing method.
+              Each order is unique, so each price is unique.
+              The bigger the order the cheaper the ml of material is.
+            </p>
+          </div>
+        </div>
+        <div class="faq-group">
+          <div class="faq-group-header">
+            <h4 class="text-md">
+              What is the price difference between Resin and PLA
+            </h4>
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="faq-group-body">
+            <p>
+              The price difference between Resin and PLA is
+              approximately 50% more for Resin.
+            </p>
+          </div>
+        </div>
+        <div class="faq-group">
+          <div class="faq-group-header">
+            <h4 class="text-md">
+              How long do prints take to finish?
+            </h4>
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="faq-group-body">
+            <p>
+              Obviously there are a lot of parameters to that question.
+              But if we take a 10cm model of a human and print it the results
+              are as follows: Resin - 8.5 hrs, PLA - 6.2 hrs and Aluminum - 10.5 hrs.
+            </p>
+          </div>
+        </div>
+        <div class="faq-group">
+          <div class="faq-group-header">
+            <h4 class="text-md">
+              How precise are the aluminum printers?
+            </h4>
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="faq-group-body">
+            <p>
+              They can print a minimum height layer of 100 micrometers.
+              So they are not exactly made for precision and art like PLA
+              or Resin printers, they are intended to be used for machine
+              parts or utensils.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scroll Up Button -->
+<div class="scroll-up-btn">
+  <a class="btn btn-dark" href="#" >
+    <i class="fas fa-arrow-up"></i>
+  </a>
+</div>
+
+  <script src="./scripts.js"></script>
+</body>
+
+</html>
